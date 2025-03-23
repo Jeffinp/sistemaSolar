@@ -3,7 +3,7 @@ import * as THREE from "three";
 import { useMemo } from "react";
 
 export default function Stars() {
-    const texture = useTexture("/src/assets/textures/stars.jpg");
+    const texture = useTexture("/assets/textures/stars.jpg");
     
     // Gerar estrelas adicionais para um efeito mais denso
     const starPositions = useMemo(() => {
