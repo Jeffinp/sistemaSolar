@@ -62,11 +62,11 @@ function kelvinToRGB(kelvin: number): string {
 // Componente para renderização avançada do Sol com física de luz realista
 function SunLight() {
     const sunRef = useRef<THREE.PointLight>(null);
-    const sunTextureMap = useTexture("/src/assets/textures/sun.jpg");
+    const sunTextureMap = useTexture("/assets/textures/sun.jpg");
 
     // Texturas para o efeito de lensflare
-    const texture0 = useTexture("/src/assets/textures/lensflare.png");
-    const texture1 = useTexture("/src/assets/textures/lensflare.png");
+    const texture0 = useTexture("/assets/textures/lensflare.png");
+    const texture1 = useTexture("/assets/textures/lensflare.png");
 
     // Temperatura do sol em Kelvin
     const sunTemperature = 5778;

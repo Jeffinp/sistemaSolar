@@ -23,7 +23,7 @@ export const celestialBodies: CelestialBodyData[] = [
         distance: 0,
         rotationSpeed: 0.004,
         revolutionSpeed: 0,
-        texture: "/src/assets/textures/sun.jpg",
+        texture: "/assets/textures/sun.jpg",
         tilt: 0,
         description: "O Sol é a estrela central do Sistema Solar.",
         color: "#FDB813"
@@ -35,7 +35,7 @@ export const celestialBodies: CelestialBodyData[] = [
         distance: 3.8,  // Distância aumentada para evitar sobreposição
         rotationSpeed: 0.004,
         revolutionSpeed: 0.04,
-        texture: "/src/assets/textures/mercury.jpg",
+        texture: "/assets/textures/mercury.jpg",
         tilt: 0.034,
         description: "Mercúrio é o menor e mais interno planeta do Sistema Solar."
     },
@@ -46,7 +46,7 @@ export const celestialBodies: CelestialBodyData[] = [
         distance: 6.2,  // Distância aumentada
         rotationSpeed: 0.002,
         revolutionSpeed: 0.015,
-        texture: "/src/assets/textures/venus.jpg",
+        texture: "/assets/textures/venus.jpg",
         tilt: 177.4,
         description: "Vênus é o segundo planeta do Sistema Solar em ordem de distância do Sol."
     },
@@ -57,7 +57,7 @@ export const celestialBodies: CelestialBodyData[] = [
         distance: 8.5,  // Distância aumentada
         rotationSpeed: 0.01,
         revolutionSpeed: 0.01,
-        texture: "/src/assets/textures/earth.jpg",
+        texture: "/assets/textures/earth.jpg",
         tilt: 23.5,
         description: "Terra é o terceiro planeta do Sistema Solar e o único conhecido a abrigar vida."
     },
@@ -68,7 +68,7 @@ export const celestialBodies: CelestialBodyData[] = [
         distance: 11,  // Distância aumentada
         rotationSpeed: 0.01,
         revolutionSpeed: 0.008,
-        texture: "/src/assets/textures/mars.jpg",
+        texture: "/assets/textures/mars.jpg",
         tilt: 25.2,
         description: "Marte é o quarto planeta do Sistema Solar, conhecido como o Planeta Vermelho."
     },
@@ -79,7 +79,7 @@ export const celestialBodies: CelestialBodyData[] = [
         distance: 16, // Corrigido para ficar após Marte
         rotationSpeed: 0.04,
         revolutionSpeed: 0.002,
-        texture: "/src/assets/textures/jupiter.jpg",
+        texture: "/assets/textures/jupiter.jpg",
         tilt: 3.13,
         description: "Júpiter é o maior planeta do Sistema Solar, um gigante gasoso."
     },
@@ -90,10 +90,10 @@ export const celestialBodies: CelestialBodyData[] = [
         distance: 22, // Corrigido para ficar após Júpiter
         rotationSpeed: 0.038,
         revolutionSpeed: 0.0009,
-        texture: "/src/assets/textures/saturn.jpg",
+        texture: "/assets/textures/saturn.jpg",
         tilt: 26.7,
         hasRings: true,
-        ringTexture: "/src/assets/textures/saturn-ring.png",
+        ringTexture: "/assets/textures/saturn-ring.png",
         ringInnerRadius: 10,
         ringOuterRadius: 20,
         description: "Saturno é o sexto planeta do Sistema Solar, conhecido por seus anéis."
@@ -105,7 +105,7 @@ export const celestialBodies: CelestialBodyData[] = [
         distance: 30, // Ajustado ligeiramente para manter proporção
         rotationSpeed: 0.03,
         revolutionSpeed: 0.0004,
-        texture: "/src/assets/textures/uranus.jpg",
+        texture: "/assets/textures/uranus.jpg",
         tilt: 97.8,
         description: "Urano é o sétimo planeta do Sistema Solar, um gigante de gelo."
     },
@@ -116,7 +116,7 @@ export const celestialBodies: CelestialBodyData[] = [
         distance: 38, // Ajustado para manter proporção
         rotationSpeed: 0.032,
         revolutionSpeed: 0.0001,
-        texture: "/src/assets/textures/neptune.jpg",
+        texture: "/assets/textures/neptune.jpg",
         tilt: 28.3,
         description: "Netuno é o oitavo e mais distante planeta conhecido do Sistema Solar."
     }
